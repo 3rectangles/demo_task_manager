@@ -1,1 +1,21 @@
 A demo springboot app for task manager.
+Moving towards MVC architecture.
+following single responsibility.
+defining ErrorHandling class in the service file. ( only 1 service file, else its good practice to create diff errorHandling file)
+
+Made DTO and used them for create , update and response body.
+Made Mapper func for DTO.
+Made Service for functional logic.
+
+
+PLUGINS:
+LAMBOK
+
+// for getters and setters an constuctor
+//@Getter :sets the getters
+// @Setter
+//  @AllArgsConstructor  : makes the constructor
+
+https://www.baeldung.com/java-lombok-equalsandhashcode#:~:text=Usage%20of%20%40EqualsAndHashcode,or%20exclude%20them%20with%20%40EqualsAndHashCode.
+
+
